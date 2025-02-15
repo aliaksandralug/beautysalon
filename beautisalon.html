@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Салон красоты. Преобразите себя с нами! Услуги, акции, записи.">
+    <title>Салон красоты</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 30px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #e91e63;
+        }
+        h2 {
+            color: #333;
+        }
+        .services {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .services ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .services li {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        .contact {
+            margin-top: 30px;
+            font-size: 18px;
+        }
+        .contact a {
+            text-decoration: none;
+            color: #e91e63;
+            font-weight: bold;
+        }
+        .form {
+            margin-top: 30px;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #e91e63;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #d81b60;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Салон красоты "Красота в каждом штрихе"</h1>
+        <p>Преобразитесь с нами! Индивидуальный подход, качественные услуги и уютная атмосфера.</p>
+
+        <h2>Наши услуги:</h2>
+        <div class="services">
+            <ul>
+                <li>Маникюр и педикюр</li>
+                <li>Парикмахерские услуги</li>
+                <li>Уход за лицом и телом</li>
+                <li>Макияж</li>
+                <li>Массаж</li>
+                <li>Наращивание ресниц</li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <h2>Контакты:</h2>
+            <p>Телефон: <a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
+            <p>Email: <a href="mailto:salon@beauty.com">salon@beauty.com</a></p>
+            <p>Адрес: г. Москва, ул. Примерная, 10</p>
+        </div>
+
+        <h2>Записаться на прием:</h2>
+        <form class="form">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="tel" name="phone" placeholder="Ваш телефон" required>
+            <textarea name="message" placeholder="Услуга, комментарии" required></textarea>
+            <button type="submit">Записаться</button>
+        </form>
+    </div>
+
+</body>
+</html>
